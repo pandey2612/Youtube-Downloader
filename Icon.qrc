@@ -1,0 +1,21 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>Icons/Youtube.ico</file>
+        <file>Icons/Download.ico</file>
+        <file>Icons/Preferences.ico</file>
+        <file>Icons/Downloading.ico</file>
+        <file>Icons/Downloaded.ico</file>
+        <file>Icons/About.ico</file>
+        <file>Icons/Home.ico</file>
+        <file>Icons/Audio.ico</file>
+        <file>Icons/VIdeo.ico</file>
+        <file>Icons/Directory.ico</file>
+        <file>Icons/Save.ico</file>
+        <file>Icons/Open.ico</file>
+        <file>Icons/LogIN.ico</file>
+        <file>Icons/Register.ico</file>
+        <file>Icons/Login.ico</file>
+        <file>Icons/login.ico</file>
+    </qresource>
+</RCC>

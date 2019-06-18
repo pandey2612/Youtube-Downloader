@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>841</width>
+    <height>553</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Youtube Downloader</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(66, 66, 66);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>480</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Preferences</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Icon.qrc">
+      <normaloff>:/Icons/Preferences.ico</normaloff>:/Icons/Preferences.ico</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>480</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Information </string>
+    </property>
+    <property name="icon">
+     <iconset resource="Icon.qrc">
+      <normaloff>:/Icons/About.ico</normaloff>:/Icons/About.ico</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>480</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Homepage</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Icon.qrc">
+      <normaloff>:/Icons/Home.ico</normaloff>:/Icons/Home.ico</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>25</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>841</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>132</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Downloading</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/Downloading.ico</normaloff>:/Icons/Downloading.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="geometry">
+       <rect>
+        <x>538</x>
+        <y>45</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>DejaVu Sans</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Download Video</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/Download.ico</normaloff>:/Icons/Download.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>35</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>176</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Downloaded</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/Downloaded.ico</normaloff>:/Icons/Downloaded.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>98</x>
+        <y>45</y>
+        <width>431</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>DejaVu Sans</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>8</x>
+        <y>21</y>
+        <width>81</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/Youtube.ico</normaloff>:/Icons/Youtube.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>90</width>
+        <height>90</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>132</y>
+        <width>681</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_3">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>681</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>135</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>File Name</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Type</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Status</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>File Size</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Download Speed</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+       <widget class="QTableWidget" name="tableWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>681</width>
+          <height>311</height>
+         </rect>
+        </property>
+        <attribute name="horizontalHeaderDefaultSectionSize">
+         <number>135</number>
+        </attribute>
+        <column>
+         <property name="text">
+          <string>File Name</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Type</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Status</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>File Size</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Download Speed</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>750</x>
+        <y>10</y>
+        <width>79</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>         1.0</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>44</y>
+        <width>141</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>DejaVu Sans</family>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Download Audio</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/Download.ico</normaloff>:/Icons/Download.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>35</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Audio</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/Audio.ico</normaloff>:/Icons/Audio.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>60</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Video</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/VIdeo.ico</normaloff>:/Icons/VIdeo.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>141</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Path</string>
+      </property>
+      <property name="icon">
+       <iconset resource="Icon.qrc">
+        <normaloff>:/Icons/Save.ico</normaloff>:/Icons/Save.ico</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>25</width>
+        <height>25</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QTabWidget" name="tabWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>10</y>
+        <width>681</width>
+        <height>461</height>
+       </rect>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>Tab 1</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_14">
+        <property name="geometry">
+         <rect>
+          <x>480</x>
+          <y>350</y>
+          <width>171</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save Setting</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Icon.qrc">
+          <normaloff>:/Icons/Directory.ico</normaloff>:/Icons/Directory.ico</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_2">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>120</y>
+          <width>211</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Default Audio Format</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Audio.mp3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Audio.mp4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Audio.m4a</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Audio.webm</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>120</y>
+          <width>211</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(135, 148, 168);</string>
+        </property>
+        <property name="text">
+         <string>Preffered Audio Format</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>30</y>
+          <width>211</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(135, 148, 168);</string>
+        </property>
+        <property name="text">
+         <string>Audio Setting</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>Tab 2</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_15">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>350</y>
+          <width>161</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save Setting</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Icon.qrc">
+          <normaloff>:/Icons/Directory.ico</normaloff>:/Icons/Directory.ico</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_3">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>120</y>
+          <width>221</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Default Video Format</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Video.mp4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Video.avi</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Video.mkv</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Video.webm</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>120</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(135, 148, 168);</string>
+        </property>
+        <property name="text">
+         <string>Preffered Video Format</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>30</y>
+          <width>211</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(135, 148, 168);</string>
+        </property>
+        <property name="text">
+         <string>Video Setting</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>180</y>
+          <width>231</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(135, 148, 168);</string>
+        </property>
+        <property name="text">
+         <string>Preffered Video Resolution</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_4">
+        <property name="geometry">
+         <rect>
+          <x>310</x>
+          <y>180</y>
+          <width>221</width>
+          <height>27</height>
+         </rect>
+        </property>
+        <item>
+         <property name="text">
+          <string>Ask Every Time</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>144p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>240p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>360p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>480p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>720p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1080p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1440p</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2160p</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_8">
+       <attribute name="title">
+        <string>Page</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_13">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>350</y>
+          <width>181</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Save Directory</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Icon.qrc">
+          <normaloff>:/Icons/Directory.ico</normaloff>:/Icons/Directory.ico</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>25</width>
+          <height>25</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>200</x>
+          <y>20</y>
+          <width>271</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>17</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(135, 148, 168);</string>
+        </property>
+        <property name="text">
+         <string>Download Path Setting</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>80</y>
+          <width>261</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>DejaVu Sans</family>
+          <pointsize>13</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(135, 148, 168);</string>
+        </property>
+        <property name="text">
+         <string>Preffered Download Directory :</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="pushButton_11">
+        <property name="geometry">
+         <rect>
+          <x>490</x>
+          <y>140</y>
+          <width>151</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Change</string>
+        </property>
+        <property name="icon">
+         <iconset resource="Icon.qrc">
+          <normaloff>:/Icons/Open.ico</normaloff>:/Icons/Open.ico</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>24</width>
+          <height>24</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>140</y>
+          <width>421</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>/Youtube Video Downloader</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Page</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>841</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="Icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
