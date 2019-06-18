@@ -1,0 +1,2 @@
+# Youtube-Downloader
+A complete Youtube Downloader that contains Audio and Video Download support.With playlist for video and Audio is also available.The main thisng about this Downloader is that it is Open Source and flexible means it can be able to run on any machine(Linux , Windows , Mac). Now lets talk about the architecture of the Software it is developed by using Python(3.7) and through python Open Source library Pytube and Youtube_dl.
